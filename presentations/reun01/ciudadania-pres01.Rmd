@@ -79,7 +79,7 @@ class: slideInRight, middle, inverse
 ---
 class: middle, center
 
-.center[![Esquema de Participación Política](images/Esquema.png)] 
+.center[![Esquema de Participación Política](images/Esquema.PNG)] 
 
 ---
 # Preguntas de Investigación
@@ -131,7 +131,7 @@ class: slideInRight, middle, inverse
 
 ## H 1-2 Justicia distributiva y socialización
 
-.center[![:scale 60%](images/hipotesis2.png)]
+.center[![:scale 60%](images/hipotesis2.PNG)]
 
 * En términos generales, el sistema distributivo posee una baja legitimidad en los estudiantes chilenos (Descriptivo).
 * La baja legitimidad del sistema distributivo se relaciona con poseer padres que consideren poco legitimo dicho sistema. 
@@ -140,13 +140,13 @@ class: slideInRight, middle, inverse
 ### H3 Sentido de injusticia y sistema distributivo
 
 
-.center[![:scale 60%](images/hipotesis3.png)]
+.center[![:scale 60%](images/hipotesis3.PNG)]
 
  * Una evaluación de injusticia en las notas se relaciona con una menor legitimidad del sistema distributivo en general.
 
 ---
 ### H 4-6 Sistema Distributivo y democracia 
-.center[![:scale 54%](images/hipotesis46.png)]
+.center[![:scale 54%](images/hipotesis46.PNG)]
 
  * Una baja justificación de la desigualdad del sistema distributivo se relaciona con una menor confianza en las instituciones políticas.
  * Una baja justificación de la desigualdad del sistema distributivo se relaciona con una imagen del buen ciudadano basada en la acción más que en la obediencia.
@@ -155,7 +155,7 @@ class: slideInRight, middle, inverse
 ---
 # Modelo en general. 
 
-.center[![:scale 100%](images/modelo.png)]
+.center[![:scale 100%](images/modelo.PNG)]
 
 
 ---
