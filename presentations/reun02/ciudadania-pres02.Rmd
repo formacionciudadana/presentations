@@ -136,7 +136,7 @@ class: slideInRight, middle, inverse
   + Menor apoyo a la igualdad de derechos
 ---
 ## H 1-2 Relación entre actitudes cívicas y actitudes hacia la desigualdad.
-.center[![:scale 70%](images/Diapositiva1L.png)]
+.center[![:scale 70%](images/Diapositiva1L.PNG)]
  * En términos generales, el sistema distributivo posee una baja legitimidad en los estudiantes chilenos (Descriptivo).
  * Existe una relación entre las actitudes hacia la desigualdad económica y las actitudes cívicas en los estudiantes Chilenos.
 ---
@@ -158,7 +158,7 @@ class: slideInRight, middle, inverse
   
 ---
 ## $H_{3-4}$
-.center[![:scale 70%](images/Diapositiva2L.png)] 
+.center[![:scale 70%](images/Diapositiva2L.PNG)] 
 
 * Padres con actitudes más favorables hacia la desigualdad, fomentarán en sus hijos actitudes más favorables hacia la desigualdad
 
@@ -167,7 +167,7 @@ class: slideInRight, middle, inverse
 ---
 # Modelo en general.
 
-.center[![:scale 100%](images/Diapositiva3L.png)]
+.center[![:scale 100%](images/Diapositiva3L.PNG)]
 
 ---
 class: middle, center
