@@ -214,11 +214,11 @@ class: slideInRight, middle, inverse
 
 ---
 # Modelo Actual
-![](images/Diapositiva1.png)
+![](images/Diapositiva1.PNG)
 ---
 # Propuesta
 
-![](images/Diapositiva2.png)
+![](images/Diapositiva2.PNG)
 
 > H1: La percepción meritocratica de los padres media en parte el efecto del nivel socioeconomico sobre la percepción meritocratica. 
 
