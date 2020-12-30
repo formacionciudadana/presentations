@@ -1,0 +1,64 @@
+---
+title: "Participación política de la juventud chilena: incidencia de la socialización política parental y el rol de la escuela"
+author: "Julio César Iturra, Daniel Miranda, Brian Montenegro & Karen Sepúlveda"
+date: "2020/30/10"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      
+---
+## Preguntas de Investigación
+#### 1. ¿En qué medida la socialización política parental incide en la participación política de los jóvenes chilenos?
+#### 2. ¿En qué medida la socialización política parental incide en la participación política de los jóvenes chilenos de distintos estratos socioeconómicos y de distintos niveles educativos?
+#### 3. ¿Qué papel juega la escuela como mitigador o regulador de las desigualdades de origen en la participación política de los jóvenes chilenos?
+---
+## Variable dependiente - Participación Política Juvenil
+#### Es un concepto que se define como las prácticas de jóvenes que buscan incidir en los asuntos públicos de un sistema político y de un país determinado (en este caso, de la democracia chilena). 
+
+#### Éstas prácticas pueden ser colectivas o individuales, son voluntarias y buscan influenciar en la toma de decisiones de los agentes de los sistemas políticos (Almond & Verba, 1963; Parry et al., 1992; Pattie et al., 2004; Whiteley, 2012).
+
+#### En la presente investigación, este concepto va a ser entendido como la participación política formal, participación política disruptiva y participación política no disruptiva. Respecto a la presentación anterior, se decidió no utilizar la categoría "participación política comunitaria".
+
+---
+![Medición de Variable Dependiente - Participación Política](Presentacion/Participacion)
+---
+## Hipótesis de socialización política familiar y escolar
+##### H1. Se hipotetiza que las prácticas de socialización en el contexto familiar se traducen en mayores niveles de participación en jóvenes. Concretamente, jóvenes provenientes de familias con mayores prácticas de socialización política presentarán mayores niveles de participación cívica (intencionada/reportada) que aquellos jóvenes provenientes de familias con menores  prácticas de socialización política.
+
+##### H2a. Jóvenes que crecen en familias con mayores recursos socioeconómicos y culturales presentarán mayores niveles de participación política formal y activista no disruptiva, respecto a aquellos jóvenes que provienen de familias que tienen menores recursos socioeconómicos y culturales
+
+##### H2b. Jóvenes que crecen en familias con mayores recursos socioeconómicos y culturales  presentarán menores niveles de participación política activista disruptiva, respecto a aquellos jóvenes que provienen de familias que tienen menores recursos socioeconómicos y culturales.
+
+##### H3a. Se hipotetiza que las prácticas de enseñanza orientadas a la formación ciudadana  se asocian con los niveles de participación de los jóvenes. Concretamente, jóvenes que asisten a escuelas con mayores prácticas de formación ciudadana presentarán mayores niveles de participación formal y activista no disruptiva. 
+
+##### H3b. Se hipotetiza que espacios más abiertos a la discusión en el contexto escolar se asocian con los niveles de participación de los jóvenes. Concretamente, jóvenes que asisten a escuelas con mayor apertura a la discusión sobre temas sociales y políticos presentarán mayores niveles de participación formal y activista no disruptiva. 
+
+---
+## Hipótesis de socialización política escolar
+##### H4a. Se hipotetiza que las prácticas de enseñanza orientadas a la formación ciudadana mitigaran las desigualdades políticas de origen de los/as estudiantes chilenos. Es decir, en aquellas escuelas que desarrollan más actividades de formación ciudadana la asociación entre los recursos socioeconómicos y culturales de la familia con los niveles de participación de los jóvenes será menos intensa, que en aquellas escuelas que desarrollan menos actividades de formación ciudadana.
+
+##### H4b. Se hipotetiza que espacios más abiertos a la discusión en el contexto escolar mitigaran las desigualdades políticas de origen de los/as estudiantes chilenos. Es decir, en aquellas escuelas que hay mayor apertura a la discusión sobre temas sociales y políticos la asociación entre los recursos socioeconómicos y culturales de la familia con los niveles de participación de los jóvenes será menos intensa, que en aquellas escuelas que desarrollan menos actividades de formación ciudadana.
+
+##### H5a. Se hipotetiza que las prácticas de enseñanza orientadas a la formación ciudadana mitigarán el efecto de las prácticas de socialización familiar sobre la participación de los jóvenes. Es decir, en aquellas escuelas que desarrollan más actividades de formación ciudadana la asociación entre los recursos socioeconómicos y culturales de la familia con los niveles de participación de los jóvenes será menos intensa, que en aquellas escuelas que desarrollan menos actividades de formación ciudadana, que en aquellas escuelas que desarrollan menos actividades de formación ciudadana.
+
+##### H5b. Se hipotetiza que espacios más abiertos a la discusión en el contexto escolar mitigarán el efecto de las prácticas de socialización familiar sobre la participación de los jóvenes. Es decir, en aquellas escuelas que hay mayor apertura a la discusión sobre temas sociales y políticos la asociación entre los recursos socioeconómicos y culturales de la familia con los niveles de participación de los jóvenes será menos intensa, que en aquellas escuelas que desarrollan menos actividades de formación ciudadana.
+---
+![Esquema de las Hipótesis](Presentacion/Esquema)
+---
+## Plan de Análisis
+### 1. Análisis uni y bivariado de las variables de importancia para el estudio.
+### 2. Análisis Factorial Confirmatorio (AFC) para ratificar -o modificar- la estructura interna de los conceptos medidos por más de una variable.
+### 3. Modelo de ecuaciones estructurales multinivel para testear las principales hipótesis de la investigación.
+---
+class: center, middle
+
+# Agradecimientos!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+
