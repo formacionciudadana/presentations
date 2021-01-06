@@ -1,6 +1,6 @@
 ---
 title: "_Trabajo colaborativo y control de versiones usando GitHub"
-date: "diciembre, 2020"
+date: "enero, 2020"
 author: "" 
 output:
   xaringan::moon_reader:
@@ -39,7 +39,7 @@ Julio César Iturra Sanhueza $^1$
 
 
 ---
-# Contenidos de la sesión
+# Contenidos de la sesión.
 
 1. Conceptos centrales
 
