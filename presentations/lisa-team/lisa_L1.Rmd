@@ -1,0 +1,117 @@
+---
+title: "Laboratorio de Ciencia Social Abierta"
+author: ".small[Julio Iturra Sanhueza]"
+date: "Junio 2021"
+output:
+  xaringan::moon_reader:
+    includes:
+      after_body: insert-logo.html
+    lib_dir: libs
+    css: ["xaringan-coes.css"]
+    seal: false # esto omite title slide automática
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+      beforeInit: "xaringan_custom/macros.js"
+---
+
+class: middle, inverse
+
+.pull-left[
+# Laboratorio de Ciencia Social Abierta
+
+**Julio Iturra Sanhueza**
+
+22 junio 2021
+]
+
+.pull-right[
+
+<br>
+<br>
+<br>
+
+![](images/COES_Logo_mediano.png)
+]
+
+---
+# Presentación
+
+> El **Laboratorio de Ciencia Social Abierta** es una iniciativa del Centro de Estudios de Conflicto y Cohesión Social (COES) que tiene como propósito ser una guía para el desarrollo de una ciencia social abierta y reproducible para la comunidad científica y la ciudadanía. Nos enfocamos en promover y construir **herramientas de los tres componentes** principales de la ciencia abierta: (1) apertura de datos, (2) análisis reproducibles y (3) publicaciones libres.
+
+<br>
+<br>
+<br>
+.center[![:scale 50%](https://lisa-coes.netlify.app/img/carousel/lisa-blanco.png)]
+
+---
+# Equipo
+
+![](images/integrantes.PNG)
+
+---
+
+# Pasantes
+
+.center[
+![](images/pasantes.PNG)
+]
+
+---
+class: inverse, middle, center
+# Desarrollo sitio web
+
+---
+class: center
+
+[https://lisa-coes.netlify.app/](https://lisa-coes.netlify.app/)
+![:scale 80%](images/sitioweb.PNG)
+
+
+**Desarrollado por Valentina Andrade de LISA**
+---
+# Componentes 
+.center[
+![:scale 85%](images/componentes.PNG)
+]
+
+---
+# Datos Abiertos
+
+.pull-left[
+## Guía para la apertura de Datos
+  * Paso 1: ¿Qué es lo que necesito?
+  * Paso 2: ¿Cómo darle en un formato aceptable?
+    1. Bases de Datos
+    2. Cuestionario
+    3. Libro de códigos
+      * Guía: [¿Cómo hacer un libro de códigos?](https://lisa-coes.netlify.app/como-hacer-codebook/)
+  * Paso 3 : ¿Cómo publicar? (Video)
+]  
+
+
+.pull-right[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kFhxs-EfUqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+
+
+---
+# Trabajo en proceso
+
+Desarrollo de los siguientes componentes:
+
+* Transparencia y Reproducibilidad
+* Publicaciones Libres
+
+
+---
+class: center, middle
+
+Presentación creada via la librería de R [**xaringan**](https://github.com/yihui/xaringan).
+
+
+
+
