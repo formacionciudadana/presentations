@@ -18,6 +18,7 @@ layout: true
 class: animated, fadeIn
 
 ```{r xaringanExtra, echo = FALSE}
+library("xaringanExtra")
   xaringanExtra::use_progress_bar(color = "red", location = "bottom")
 ```
 
@@ -139,9 +140,6 @@ b. Experiencias escolares de justicia distributiva
 
 c. Percepciones meritocráticas parentales
   
-  
-percepciones meritocráticas de estudiantes secundarios
-
 
 ---
 # Meritocracia
@@ -176,9 +174,9 @@ Posición en la estructura social, cantidad de recursos.
 
 ## Hipótesis de socialización
 
-- El estatus socioeconómico de la familia posee un efecto positivo sobre las percepciones meritocráticas del estudiante.
-
 - Padres con mayor nivel de percepción de meritocracia estarán asociados a hijos con similares percepciones.
+
+- El estatus socioeconómico de la familia posee un efecto positivo sobre las percepciones meritocráticas del estudiante.
 
 ## Hipótesis de justicia en la escuela
 
@@ -193,6 +191,7 @@ La relación entre percepción meritocrática de los padres y de los hijos será
 ---
 # Modelo teórico
 
+.center[![](model.png)]
 
 ---
 class: inverse, right, middle
@@ -274,11 +273,25 @@ class: center, middle
 ---
 class: middle
 
-![:scale 110%](output/tables/cor_ppt.png)
+![:scale 110%](output/tables/cor.png)
+
+---
+### .red[Modelo Teórico]
+.center[![](model.png)]
 
 ---
 
-.center[![:scale 50%](output/tables/trabaj_ppt.png)]
+### .red[Hipótesis de socialización (percepciones)]
+.center[![](modelh1.png)]
+
+---
+### .red[Hipótesis de socialización (nivel socioeconómico)]
+.center[![](modelh4.png)]
+
+---
+
+### .red[Hipótesis de interacción]
+.center[![](modelh3.png)]
 
 ---
 class: inverse, right, middle
