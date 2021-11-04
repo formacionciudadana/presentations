@@ -47,18 +47,22 @@ class: inverse, right, middle
 
 # Socialización de la meritocracia: el rol de la familia y la escuela. <br>
 
-.orange[**Juan Carlos Castillo (juancastillov@uchile.cl),  Julio Iturra, Francisco Meneses y Martín Venegas**]
+.medium[.orange[**Juan Carlos Castillo (juancastillov@uchile.cl),  Julio Iturra, Francisco Meneses y Martín Venegas**]]
 
-Departamento de Sociología, Universidad de Chile
 
-Centro de Estudios de Conflicto y Cohesión Social - [.orange[COES]]()
 
-Proyecto FONDECYT 1181239 (2018-2021)
+.small[Departamento de Sociología, Universidad de Chile]
+
+.small[Centro de Estudios de Conflicto y Cohesión Social - [.orange[COES]]()]
+
+.small[Proyecto FONDECYT 1181239 (2018-2021)]
+
 
 ***
-[.orange[_VI Seminario Internacional Desigualdad y Movilidad Social **(DEMOSAL)**_]](https://github.com/formacionciudadana)
+.medium[[.orange[_VI Seminario Internacional Desigualdad y Movilidad Social **(DEMOSAL)**_]](https://github.com/formacionciudadana)]
 
-Noviembre, 2021
+.medium[Noviembre, 2021]
+
 
 ---
 class: inverse, right, middle
@@ -151,19 +155,17 @@ c. Nivel socioeconómico
 ---
 # Meritocracia
 
-### Definición:
-
-Ideal que aspira a que los recursos se distribuyan según el esfuerzo y talento personal (Young, 2006)
+.medium[Ideal que aspira a que los recursos se distribuyan según el esfuerzo y talento personal (Young, 2006)]
 
 ### Posibles implicancias en población adulta
 
-- Justificación o legitimación de las desigualdades socioeconómicas (Evans et al., 2010; Castillo, 2011)
+.medium[Justificación o legitimación de las desigualdades socioeconómicas (Evans et al., 2010; Castillo, 2011)]
 
 ### Posibles implicancias en jóvenes:
 
-- Fomento de la competencia y valores individualistas (contrarios al ideal solidario de formación ciudadana) (e.g. Azevedo et al., 2019; Madeira et al., 2019).
+.medium[Fomento de la competencia y valores individualistas (contrarios al ideal solidario de formación ciudadana) (e.g. Azevedo et al., 2019; Madeira et al., 2019).]
 
-- Creer en el ideal meritocrático puede llevar a responsabilizarse por bajo desempeño escolar (Major et al., 2017).
+.medium[Creer en el ideal meritocrático puede llevar a responsabilizarse por bajo desempeño escolar (Major et al., 2017).]
 
 ---
 # Problematización
@@ -178,9 +180,9 @@ Ideal que aspira a que los recursos se distribuyan según el esfuerzo y talento 
 
 ### Propuesta
 
-Socialización política: el rol de la familia y la escuela
+* .medium[Socialización política: el rol de la familia y la escuela]
 
-Justicia distributiva: el rol de las experiencias de injusticia y el nivel socioeconómico
+* .medium[Justicia distributiva: el rol de las experiencias de injusticia y el nivel socioeconómico]
 
 ---
 # Conceptos principales
@@ -276,7 +278,13 @@ class: inverse, right, middle
 
 - Análisis descriptivo: frecuencias y correlaciones de Pearson y Policóricas
 
-- Análisis multivariado: regresiones ordinales logísticas multinivel
+- Análisis multivariado: regresiones ordinales logísticas multinivel (intercepto y pendiente aleatoria)
+
+.center[
+$\text{merit}_{est}= \text{merit}_{apod} + \text{sjusticia}_{est} + \text{NSE}_{familia}  ~~~~~~~~~~(1)$
+
+$\text{merit}_{est}= \text{merit}_{apod} \times \text{sjusticia}_{est} + \text{NSE}_{familia}~~~~~~~~~~(2)$ 
+]
 
 ---
 class: inverse, right, middle
