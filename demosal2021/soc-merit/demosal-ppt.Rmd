@@ -51,16 +51,13 @@ class: inverse, right, middle
 
 
 
-.small[Departamento de Sociología, Universidad de Chile]
-
-.small[Centro de Estudios de Conflicto y Cohesión Social - [.orange[COES]]()]
-
+.small[Departamento de Sociología, Universidad de Chile] <br> 
+.small[Centro de Estudios de Conflicto y Cohesión Social - [.orange[COES]]()] <br> 
 .small[Proyecto FONDECYT 1181239 (2018-2021)]
 
 
 ***
-.medium[[.orange[_VI Seminario Internacional Desigualdad y Movilidad Social **(DEMOSAL)**_]](https://github.com/formacionciudadana)]
-
+.medium[[.orange[_VI Seminario Internacional Desigualdad y Movilidad Social **(DEMOSAL)**_]](https://github.com/formacionciudadana)]<br>
 .medium[Noviembre, 2021]
 
 
@@ -99,12 +96,9 @@ class: inverse, right, middle
 ## Proyecto FONDECYT 1181239 (2018-2021)
 
 .pull-left[
-- **Socialización política y experiencia escolar: El rol de la familia y la escuela**
-
-- Investigador principal: Cristián Cox
-
-- Estudio Panel Ciudadanía Escolar .red[**PACES**]
-
+- **Socialización política y experiencia escolar: El rol de la familia y la escuela** <br> <br>
+- Investigador principal: Cristián Cox <br> <br>
+- Estudio Panel Ciudadanía Escolar .red[**PACES**] <br> <br>
 - Actualmente realizado estudios de primera ola y levantando segunda
 ]
 
@@ -155,49 +149,43 @@ c. Nivel socioeconómico
 ---
 # Meritocracia
 
-.medium[Ideal que aspira a que los recursos se distribuyan según el esfuerzo y talento personal (Young, 2006)]
+* .medium[Ideal que aspira a que los recursos se distribuyan según el esfuerzo y talento personal (Young, 2006)]
 
 ### Posibles implicancias en población adulta
 
-.medium[Justificación o legitimación de las desigualdades socioeconómicas (Evans et al., 2010; Castillo, 2011)]
+* .medium[Justificación o legitimación de las desigualdades socioeconómicas (Evans et al., 2010; Castillo, 2011)]
 
 ### Posibles implicancias en jóvenes:
 
-.medium[Fomento de la competencia y valores individualistas (contrarios al ideal solidario de formación ciudadana) (e.g. Azevedo et al., 2019; Madeira et al., 2019).]
-
-.medium[Creer en el ideal meritocrático puede llevar a responsabilizarse por bajo desempeño escolar (Major et al., 2017).]
-
+* .small[Fomento de la competencia y valores individualistas (contrarios al ideal solidario de formación ciudadana) (e.g. Azevedo et al., 2019; Madeira et al., 2019).] 
+* .small[Creer en el ideal meritocrático puede llevar a responsabilizarse por bajo desempeño escolar (Major et al., 2017).]
 ---
 # Problematización
 
 - Reciente alza en los estudios sobre meritocracia
-
 - Evidencia sobre la importancia de la meritocracia en las vivencias juveniles de la desigualdad
-
 - **Poca atención en la formación de estas creencias en etapas tempranas**
-
 - Estudios existentes abordan perspectiva macro
 
 ### Propuesta
 
-* .medium[Socialización política: el rol de la familia y la escuela]
-
-* .medium[Justicia distributiva: el rol de las experiencias de injusticia y el nivel socioeconómico]
+* Socialización política: el rol de la familia y la escuela
+* Justicia distributiva: el rol de las experiencias de injusticia y el nivel socioeconómico
 
 ---
 # Conceptos principales
 
 ### Percepciones meritocráticas
 
-La convicción de los sujetos sobre que su sociedad realmente distribuye recursos según el mérito individual (Castillo et al., 2019)
+* La convicción de los sujetos sobre que su sociedad realmente distribuye recursos según el mérito individual (Castillo et al., 2019)
 
 ### Sentido de justicia en las notas (escuela)
 
-Evaluaciones de justicia en la distribución de notas en la escuela (subrecompensado, justo, sobrerecompensado) (Resh, 2010)
+* Evaluaciones de justicia en la distribución de notas en la escuela (subrecompensado, justo, sobrerecompensado) (Resh, 2010)
 
 ### Nivel socioeconómico (familia)
 
-Posición en la estructura social, cantidad de recursos.
+* Posición en la estructura social, cantidad de recursos.
 
 ---
 
@@ -255,24 +243,21 @@ class: inverse, right, middle
 ---
 # Variables
 
-.medium[
-
-- **Percepciones meritocráticas** (estudiantes y apoderados)
-
-  + _En Chile, los que se esfuerzan salen adelante. Likert 4 categorías grado de acuerdo_
-
-  + _Actualmente en Chile, para surgir en la vida ¿Cuán importante es el trabajo duro? Idem grado importancia_
 
 
-- **Sentido de justicia en las notas**
+**Percepciones meritocráticas** (estudiantes y apoderados)
 
-  + Directo: _Tomando en cuenta el tiempo que le dedico a mis estudios, las notas que me saco son. . . Más/Menos las que merezco_
+* _En Chile, los que se esfuerzan salen adelante. Likert 4 categorías grado de acuerdo_
+* _Actualmente en Chile, para surgir en la vida ¿Cuán importante es el trabajo duro? Idem grado importancia_
 
-  + Indirecto: Formula Jasso (1978) con notas
+**Sentido de justicia en las notas**
+
+* Directo: _Tomando en cuenta el tiempo que le dedico a mis estudios, las notas que me saco son. . . Más/Menos las que merezco_
+* Indirecto: Formula Jasso (1978) con notas
 
 
-- **Nivel socioeconómico**:  Nivel educativo, Quintiles de ingreso
-]  
+**Nivel socioeconómico**:  Nivel educativo, Quintiles de ingreso
+
 ---
 # Métodos
 
@@ -374,28 +359,34 @@ class: inverse, center, middle
 
 
 ---
-# Referencias
+## Referencias
 
-Azevedo, F., Jost, J.T., Rothmund, T. & Sterling, J. (2019). Neoliberal Ideology and the Justification of Inequality in Capitalist Societies: Why Social and Economic Dimensions of Ideology Are Intertwined: Neoliberal Ideology and Justification. Journal of Social Issues 75 (1): 49–88. https://doi.org/10.1111/josi.12310.
+.medium[Azevedo, F., Jost, J.T., Rothmund, T. & Sterling, J. (2019). Neoliberal Ideology and the Justification of Inequality in Capitalist Societies: Why Social and Economic Dimensions of Ideology Are Intertwined: Neoliberal Ideology and Justification. Journal of Social Issues 75 (1): 49–88. https://doi.org/10.1111/josi.12310.] 
 
-Castillo, J.C., Torres, A., Atria, J. & Maldonado, L. (2019). Meritocracia y Desigualdad Económica: Percepciones, Preferencias e Implicancias. Revista Internacional de Sociología 77 (1): 117. https://doi.org/10.3989/ris.2019.77.1.17. 114.
+.medium[Castillo, J.C., Torres, A., Atria, J. & Maldonado, L. (2019). Meritocracia y Desigualdad Económica: Percepciones, Preferencias e Implicancias. Revista Internacional de Sociología 77 (1): 117. https://doi.org/10.3989/ris.2019.77.1.17. 114.]
 
-Castillo, J.C. (2011). Legitimacy of Inequality in a Highly Unequal Context: Evidence from the Chilean Case. Social Justice Research 24 (4): 314–40. https://doi.org/10.1007/s11211-011-0144-5
+.medium[Castillo, J.C. (2011). Legitimacy of Inequality in a Highly Unequal Context: Evidence from the Chilean Case. Social Justice Research 24 (4): 314–40. https://doi.org/10.1007/s11211-011-0144-5]
 
-Evans, M. D. R., Kelley, J., & Peoples, C.D. (2010). Justifications of Inequality: The Normative Basis of Pay Differentials in 31 Nations. Social Science Quarterly 91 (5): 1405–31
-
-Jasso, G. (1978). On the Justice of Earnings: A New Specification of the Justice Evaluation Function. American Journal ofSociology 83 (6): 1398–1419. https://doi.org/10.1086/226706.
 
 ---
-# Referencias
+## Referencias
 
-Major, B., Kaiser, C.R, O’Brien, L.T, & McCoy, S.H. (2007). Perceived Discrimination as Worldview Threat or Worldview Confirmation: Implications for Self-Esteem. Journal of Personality and Social Psychology 92 (6): 1068–86. https://doi.org/10.1037/0022-3514.92.6.1068.
+.medium[Evans, M. D. R., Kelley, J., & Peoples, C.D. (2010). Justifications of Inequality: The Normative Basis of Pay Differentials in 31 Nations. Social Science Quarterly 91 (5): 1405–31]
 
-Madeira, A.F., Costa-Lopes, T., Dovidio, J.F., Freitas, G., & Mascarenhas, M.F. (2019). Primes and Consequences: A Systematic Review of Meritocracy in Intergroup Relations. Frontiers in Psychology 10 (September). https://doi.org/10.3389/fpsyg.2019.02007.
+.medium[Jasso, G. (1978). On the Justice of Earnings: A New Specification of the Justice Evaluation Function. American Journal ofSociology 83 (6): 1398–1419. https://doi.org/10.1086/226706.]
 
-Resh, N. (2010). Sense of Justice about Grades in School: Is It Stratified Like Academic Achievement? Social Psychology of Education 13 (3): 313–29. https://doi.org/10.1007/s11218-010-9117-z.
+.medium[Major, B., Kaiser, C.R, O’Brien, L.T, & McCoy, S.H. (2007). Perceived Discrimination as Worldview Threat or Worldview Confirmation: Implications for Self-Esteem. Journal of Personality and Social Psychology 92 (6): 1068–86. https://doi.org/10.1037/0022-3514.92.6.1068. ]
 
-Young, M. (2006). The Rise of Meritocracy. Oxford, UK ; Malden, MA: Blackwell Pub. in association with The Political Quarterly
+
+---
+## Referencias 
+
+.medium[Madeira, A.F., Costa-Lopes, T., Dovidio, J.F., Freitas, G., & Mascarenhas, M.F. (2019). Primes and Consequences: A Systematic Review of Meritocracy in Intergroup Relations. Frontiers in Psychology 10 (September). https://doi.org/10.3389/fpsyg.2019.02007.] 
+
+.medium[Resh, N. (2010). Sense of Justice about Grades in School: Is It Stratified Like Academic Achievement? Social Psychology of Education 13 (3): 313–29. https://doi.org/10.1007/s11218-010-9117-z.]
+
+.medium[Young, M. (2006). The Rise of Meritocracy. Oxford, UK ; Malden, MA: Blackwell Pub. in association with The Political Quarterly]
+
 ---
 .center[![:scale 50%](output/tables/model_ppt.png)]
 ---
@@ -403,12 +394,10 @@ class: inverse, right, middle
 
 # Socialización de la meritocracia: el rol de la familia y la escuela. <br>
 
-**Juan Carlos Castillo (juancastillov@uchile.cl),  Julio Iturra, Francisco Meneses y Martín Venegas**
+.medium[**Juan Carlos Castillo (juancastillov@uchile.cl),  Julio Iturra, Francisco Meneses y Martín Venegas**]
 
-Departamento de Sociología, Universidad de Chile
-
-Centro de Estudios de Conflicto y Cohesión Social - [COES]()
-
+Departamento de Sociología, Universidad de Chile <br>
+Centro de Estudios de Conflicto y Cohesión Social - [COES]()<br>
 Proyecto FONDECYT 1181239 (2018-2021)
 
 ***

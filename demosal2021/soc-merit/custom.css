@@ -7,7 +7,7 @@ body {
 
 p{
   
-  font-size: 28px;
+  font-size: 32px;
 }  
 
 
@@ -48,7 +48,7 @@ a, a > code {
 li {
     display: list-item;
     text-align: -webkit-match-parent;
-    font-size: 26px;
+    font-size: 28px;
 }
 
 .number_list ol {
