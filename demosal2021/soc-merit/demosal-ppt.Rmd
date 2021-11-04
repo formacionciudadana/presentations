@@ -17,12 +17,14 @@ output:
 layout: true
 class: animated, fadeIn
 
-```{r xaringanExtra, echo = FALSE}
+```{r packages, echo=FALSE, warning=FALSE}
 library("xaringanExtra")
+library("fontawesome")
   xaringanExtra::use_progress_bar(color = "red", location = "bottom")
 ```
 
 ```{r setup, include=FALSE,eval=TRUE}
+knitr::opts_chunk$set(warning = TRUE)
 options(htmltools.dir.version = FALSE)
 ```
 
@@ -389,6 +391,18 @@ class: inverse, center, middle
 
 ---
 .center[![:scale 50%](output/tables/model_ppt.png)]
+---
+## Ciencia abierta y enlaces
+
+Este estudio adhiere a los principios de ciencia abierta.
+
+.red[### Enlaces]
+
+- **Pre-registro:** [Click aquí](https://osf.io/fazdx)
+
+- **Pre-Print:** [Click aquí](https://htmlpreview.github.io/?https://github.com/juancarloscastillo/socialisacion-merit/blob/metodo/paper.html)
+
+### `r  fontawesome::fa(name = "github", fill = "black")` <br> [github.com/juancarloscastillo/socialisacion-merit](https://github.com/juancarloscastillo/socialisacion-merit) 
 ---
 class: inverse, right, middle
 
