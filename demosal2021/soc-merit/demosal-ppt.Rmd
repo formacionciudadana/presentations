@@ -105,7 +105,14 @@ class: inverse, right, middle
 ]
 
 .pull-right[
+
+<br><br>
+
+.center[ 
 ![](logosmall.png)
+ ]
+ 
+
 ]
 
 
