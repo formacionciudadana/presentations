@@ -342,7 +342,7 @@ H5. En escuelas que desarrollan mayores niveles de apertura a la discusión en e
 **Modelo de Hipótesis**
 
 ```{r, echo=FALSE, out.width = '90%', fig.retina = 1, fig.align='center'}
-knitr::include_graphics("images/esquema.png")
+knitr::include_graphics("images/esquema.PNG")
 ```
 ---
 **Datos, metodología y variables**
@@ -361,7 +361,7 @@ knitr::include_graphics("images/esquema.png")
 
 ```{r, echo=FALSE, out.width = '80%', fig.retina = 1, fig.align='center'}
 
-knitr::include_graphics("images/dependientes.png")
+knitr::include_graphics("images/dependientes.PNG")
 
 ```
 ---
@@ -379,7 +379,7 @@ knitr::include_graphics("images/dependientes.png")
 1. Resultados de moderación multinivel: apertura a la discusión en el aula modera la relación entre prácticas de participación activistas de los padres y participación activista de los estudiantes
 
 ```{r, echo=FALSE, out.width = '90%', fig.retina = 1, fig.align='center'}
-knitr::include_graphics("images/marginsef_1.png")
+knitr::include_graphics("images/marginsef_1.PNG")
 ```
 
 ---
@@ -387,7 +387,7 @@ knitr::include_graphics("images/marginsef_1.png")
 
 ```{r, echo=FALSE, out.width = '90%', fig.retina = 1, fig.align='center'}
 
-knitr::include_graphics("images/marginsef_2.png")
+knitr::include_graphics("images/marginsef_2.PNG")
 
 ```
 ---
