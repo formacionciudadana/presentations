@@ -1,0 +1,466 @@
+---
+title: "¿La manzana cae lejos del árbol? Incidencia de la socialización familiar y
+  escolar en la participación política de jóvenes secundarios"
+subtitle: "Conferencia Internacional COES 2021"
+author: "Daniel Miranda, Julio Iturra, Brian Montenegro & Karen Sepúlveda"
+date: "Noviembre 2021"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ['xaringan-themer.css', 'animate.min.css', 'ninjutsu']
+    self_contained: false # if true, fonts will be stored locally
+    seal: false # show a title slide with YAML information
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      slideNumberFormat: '%current%'
+      countIncrementalSlides: false
+      ratio: '16:9' # alternatives '16:9' or '4:3' or others e.g. 13:9
+      navigation:
+        scroll: true # disable slide transitions by scrolling
+---
+
+```{r setup_theme, include = FALSE}
+
+light_color <- 'white'
+text_color <- '#397CDA'
+gray <- "#333333"
+blue <- "#4466B0"
+
+
+library(xaringanthemer)
+style_duo(
+  # colors
+  primary_color = light_color,
+  secondary_color = text_color,
+  header_color = light_color,
+  text_color = text_color,
+  code_inline_color = colorspace::lighten(text_color),
+  text_bold_color = colorspace::lighten(text_color),
+  link_color = light_color,
+  title_slide_text_color = text_color,
+  background_position = 'center',
+  header_font_google = google_font("Lato"),
+  text_font_google   = google_font("Lato", "300", "300i"),
+  code_font_google   = google_font("Hack"),
+  code_highlight_color = 'rgba(58,116,188,0.15)',
+  code_font_size = '50%',
+  padding = "0.4em 2.4em 0.4em 2.4em",
+  extra_fonts = list(google_font("Lato")),
+  extra_css = 
+  list(
+  ".red"    = list(color = "red"),
+  ".white"  = list(color = "white"),
+  ".bold_white" = list(color = "white", "font-weight" = "bold"),
+  ".small" = list("font-size" = "90%"),
+  ".pull_l_70"  = list("float" = "left" , "width" = "72%"),
+  ".pull_r_30"  = list("float" = "right", "width" = "23%"),
+  ".pull_l_60"  = list("float" = "left" , "width" = "60%"),  
+  ".pull_r_40"  = list("float" = "right", "width" = "33%"),
+  ".pull_l_50"  = list("float" = "left" , "width" = "45%"),
+  ".pull_r_50"    = list("fixed" = "right", "width" = "45%"),
+  ".small_left"  = list("float" = "left", "width" = "47%", "height" = "50%", "padding-right" = "2%"),
+  ".small_right" = list("float" = "right","width" = "47%", "height" = "50%", "padding-left"  = "2%"),
+  ".left_code" = list("float" = "left",  "width" = "47%", "height" = "100%", "padding-right" = "2%",
+    "font" = "Hack"),
+  ".code_out"  = list("float" = "right", "width" = "47%", "height" = "100%", "padding-left"  = "2%",
+    "font" = "Hack"),
+  ".pull_l_50_1" = list(
+    display = "flex",
+    width   = "100%",
+    height   = "77%",
+    "flex-flow" = "column wrap",
+    flex    = "1",
+    "padding-left"  = "10%"
+  ),
+  ".pull_l_50_2" = list(
+    display = "flex",
+    width   = "100%",
+    height   = "10%",
+    "flex-flow" = "column wrap",
+    flex    = "2",
+    "padding-left"  = "10%"
+  ),  
+  ".text_250" = list("font-size" = "250%"),
+  ".text_240" = list("font-size" = "240%"),
+  ".text_230" = list("font-size" = "230%"),
+  ".text_220" = list("font-size" = "220%"),
+  ".text_210" = list("font-size" = "210%"),
+  ".text_200" = list("font-size" = "200%"),
+  ".text_190" = list("font-size" = "190%"),
+  ".text_180" = list("font-size" = "180%"),
+  ".text_170" = list("font-size" = "170%"),
+  ".text_160" = list("font-size" = "160%"),    
+  ".text_150" = list("font-size" = "150%"),
+  ".text_140" = list("font-size" = "140%"),  
+  ".text_130" = list("font-size" = "130%"),
+  ".text_120" = list("font-size" = "120%"),
+  ".text_110" = list("font-size" = "110%"),
+  ".text_110" = list("font-size" = "110%"),
+  ".text_100" = list("font-size" = "100%"),
+  ".text_90" = list("font-size" = "90%"),
+  ".text_80" = list("font-size" = "80%"),
+  ".text_70" = list("font-size" = "70%"),
+  ".text_60" = list("font-size" = "60%"),
+  ".text_50" = list("font-size" = "50%"),
+  ".text_40" = list("font-size" = "40%"),
+  ".text_30" = list("font-size" = "30%"),
+  ".text_20" = list("font-size" = "20%"),
+  ".line_space_11" = list("line-height" = "1.1em;"),
+  ".line_space_09" = list("line-height" = "0.9em;"),
+  ".line_space_07" = list("line-height" = "0.7em;"),
+  ".line_space_05" = list("line-height" = "0.5em;"),
+  ".line_space_04" = list("line-height" = "0.4em;"),
+  ".line_space_03" = list("line-height" = "0.3em;"),
+  ".line_space_02" = list("line-height" = "0.2em;"),
+  ".line_space_01" = list("line-height" = "0.1em;"),
+    ".french" = list(
+      "text-indent" = "-30px", 
+      "position"= "absolute%",
+      "padding-left"= "40px%"
+      ),
+
+    ".tiny_text" = list(
+      "font-family" = "Lato", 
+      "font-size"= "70%"
+      ),
+    ".large_text" = list(
+      "font-family" = "Lato", 
+      "font-size"= "150%"
+      ),
+    ".slide_blue" = list(
+      "background-color" = "#397CDA",
+      "color" = "white"
+      ),
+  ".center_image" = list(
+    margin  = "0",
+    position = "absolute",
+    top      = "50%",
+    left     = "50%",
+    '-ms-transform' = "translate(-50%, -50%)",
+    transform = "translate(-50%, -50%)"
+    ),
+  ".hljs-github .hljs" = list(
+    background = 'rgba(58,116,188,0.03)')
+  )
+)
+
+
+# 'rgba(25,142,255,0.3)',
+
+knitr::opts_chunk$set(comment = NA)
+knitr::opts_chunk$set(dpi=1500)
+
+# preview slides
+# xaringan::inf_mr('psi2301_slide_example.rmd')
+
+
+# padding-top: 0.4em;
+# padding-right: 2.4em;
+# padding-bottom: 0.4em;
+# padding-left: 2.4em;
+
+```
+class: title-slide, middle, center
+
+background-image: url(img/mide_logo_2019.png), url(img/coes.png)
+background-position: top left, top right
+background-size: 10%, 10%
+
+```{r echo=FALSE, out.width = '2%', out.height = '2%'}
+knitr::include_graphics('./img/blank_space.png')
+```
+
+<br>
+
+.line_space_07[
+## ¿La manzana cae lejos del árbol?
+### .text_70[Incidencia de la socialización familiar y escolar en la participación política de jóvenes secundarios]
+]
+<br>
+
+.line_space_03[
+.blue[
+
+.text_60[
+
+**Daniel Miranda. Contacto**: damiran1@uc.cl
+
+.text_70[**Centro de Medición MIDE UC - COES**]
+
+**Julio Iturra**
+
+.text_70[**Centro de Estudios de Conflicto y Cohesión Social - COES**]
+
+**Brian Montenegro**
+
+.text_70[**Universidad Católica de Chile**]
+
+**Karen Sepúlveda**
+
+.text_70[**Universidad de Chile**]
+
+]
+
+<br>
+
+.line_space_02[
+.text_70[*ANID/FONDECYT/1181239 - ANID/FONDECYT/11190508*
+
+<br>
+
+*Centro de Estudios de Conflicto y Cohesión Social - COES - ANID/FONDAP/15130009*]
+]
+
+<br>
+
+.text_70[**Conferencia Internacional COES**]
+
+.text_70[Santiago de Chile - 15 al 17 de Noviembre]
+]
+]
+
+<br>
+
+
+---
+**Contexto: Proyecto FONDECYT 1181239 (2018-2021)**
+
+.pull-left[
+- **Socialización política y experiencia escolar: El rol de la familia y la escuela** <br> <br>
+- Investigador principal: Cristián Cox <br> <br>
+- Estudio Panel Ciudadanía Escolar .red[**PACES**] <br> <br>
+- En la actualidad se está produciendo conocimiento a partir de la encuesta PACES 2019 y simultáneamente se está levantando la segunda ola del estudio panel.
+]
+
+.pull-right[
+
+<br><br>
+
+.center[ 
+![](img/logosmall.png)
+ ]
+ 
+
+]
+
+---
+class: inverse upper
+# Estructura de la presentación
+
+1. Problema de Investigación
+
+2. Conceptos y antecedentes bibliográficos
+
+3. Objetivos e hipótesis
+
+4. Metodología, datos y variables
+
+5. Resultados
+
+6. Discusión
+---
+**Introducción**
+
+* La democracia se ha visto afectada debido al bajo involucramiento de los ciudadanos en asuntos públicos y actividades sociopolíticas.
+
+* La constancia en estas señales de desafección política contrarrestado con una amplia participación en movilizaciones plantea la necesidad de comprender de mejor forma la adquisición de disposiciones para involucrarse en las diferentes actividades sociopolíticas en que los jóvenes participan… o no. 
+
+* La participación política es un proceso de aprendizaje colectivo, e investigaciones en Latinoamérica han permitido reconocer dos desafíos para comprender este fenómeno y sus repercusiones para las democracias.
+
+* Por un lado, la amplia y constante diversificación de los repertorios de acción política, y por otro las formas en que las nuevas generaciones adquieren su comportamiento político.
+
+---
+**Participación política**
+
+* Participación política: “la acción o las actividades cívicas de los ciudadanos ordinarios dirigidas hacia la obtención de resultados políticos” (Brady, 1999; van Deth, 2014)
+
+* Las prácticas voluntarias por las cuales la ciudadanía comunica sus intereses, preferencias y necesidades a sus representantes políticos, las que a su vez funcionan como un mecanismo para presionar una respuesta del sistema político ante estas demandas ciudadanas.  (van Deth, 2001; van Deth, 2014, Parry et al., 1992; Verba, Schlozman y Brady, 1995).
+
+```{r, echo=FALSE, out.width = '40%', fig.retina = 1, fig.align='center'}
+knitr::include_graphics("images/dialogo.png")
+```
+---
+**Participación política**
+
+De este modo, las practicas que esta investigación define como modos de participación son las siguientes: 
+
+-	Participación política formal: forma clásica de entender la participación ciudadana, basada en el sufragio en elecciones de representantes. 
+
+-	Activismo: es la búsqueda de influir en asuntos públicos a partir de métodos extrainstitucionales y/o no convencionales, como protestas o manifestaciones. Dentro de esta, se reconocen dos prácticas claramente distinguibles como efectos analíticos: el *activismo no disruptivo* (formas de participación no violentas o que, desde un punto de vista normativo, se consideran legales por la institucionalidad) y el *activismo disruptivo* (modos de participación violentos o caóticos, que, desde el punto de vista institucional, se consideran ilegales, como rayados, barricadas, etc.)
+
+```{r, echo=FALSE, out.width = '80%', fig.retina = 1, fig.align='center'}
+knitr::include_graphics("images/formal-activismo.png")
+```
+---
+**Socialización política familiar**
+
+Transmisión del conocimiento cívico y de la participación política facilitados por el contexto familiar.
+
+Para efectos de este estudio, se distinguieron dos tipos de socialización política familiar: 
+
+-	Socialización política familiar directa (SPFD): Se presenta cuando las familias de los jóvenes son políticamente activas, participando en actividades políticas tempranamente, lo que conllevaría a desarrollar mayores niveles de participación en el futuro. 
+
+-	Socialización política familiar indirecta (SPFI): Ocurre cuando en el contexto familiar se discute con frecuencia sobre temas relacionados con política y actualidad, lo que facilita la transmisión del lenguaje político, de las preferencias y del interés por la política.
+
+
+
+--
+**Variables de recursos culturales familiares**
+
+Las herramientas entregadas por las familias para la interpretación y análisis del mundo social y político, están a su vez atravesadas por los recursos socioeconmicos y culturales de dichos núcleos. (Hoskins & Janmaat, 2019; Nateras, 2007).
+
+
+--
+**Socialización política escolar**
+
+La evidencia empírica ha demostrado la influencia de ciertos elementos propios de la escuela que determinan la participación de los jóvenes, reconociéndose ampliamente el valor del clima de aula y la apertura a la discusión por parte de docentes y otros actores, así como la educación cívica propiciada por el establecimiento.
+
+---
+**Preguntas de Investigación**
+
+1. ¿En qué medida las prácticas políticas parentales, los recursos socioeconómicos de la familia y la socialización política escolar inciden en la participación política de los jóvenes?
+
+2. ¿Qué papel juega la escuela, como agente mitigador o regulador, en la asociación entre los recursos y socialización política parental sobre la participación política de los jóvenes chilenos?
+
+
+---
+**Hipótesis**
+
+H1. Jóvenes provenientes de familias con mayores niveles de participación política y/o con mayores niveles de conversación política presentarán mayores niveles de participación política.
+
+H2a. Jóvenes que crecen en familias con mayores recursos culturales presentarán mayores niveles de participación política formal y activista no disruptiva.
+
+H2b. Jóvenes que crecen en familias con mayores recursos culturales presentarán menores niveles de participación política activista disruptiva.
+
+H3. Jóvenes que asisten a escuelas con mayores prácticas de socialización política presentarán mayores niveles de participación política.
+
+H4. En escuelas que desarrollan mayores niveles de apertura a la discusión en el aula y/o mayor número de actividades cívicas, la asociación entre las prácticas de participación de los padres con los niveles de participación de los jóvenes será menos intensa.
+
+H5. En escuelas que desarrollan mayores niveles de apertura a la discusión en el aula y/o mayor número de actividades cívicas, la asociación entre los recursos culturales de la familia con los niveles de participación de estos jóvenes será menos intensa.
+---
+**Modelo de Hipótesis**
+
+```{r, echo=FALSE, out.width = '90%', fig.retina = 1, fig.align='center'}
+knitr::include_graphics("images/esquema.png")
+```
+---
+**Datos, metodología y variables**
+
+* Estudio Panel de Ciudadanía Escolar 2019 (primera ola)
+
+* Se testearon las hipótesis utilizando los datos producidos por la Encuesta PACES 2019, la que considera 1635 estudiantes de 2° Medio (o décimo grado en otros países), anidados en 64 escuelas de las regiones de Antofagasta, Metropolitana de Santiago y del Maule. Luego de filtrar la base de datos, la muestra con la que se trabajó resultó en 524 estudiantes y 60 escuelas.
+
+--
+* Dado que los datos tienen una estructura jerárquica (estudiantes anidados en liceos) se realizó el análisis de los datos a partir de la estimación de modelos multinivel.
+
+* Para la construcción de las tres variables dependientes se realizó un análisis factorial confirmatorio (AFC) el cual se identificó con 11 variables agrupadas en 3 estructuras latentes.
+
+---
+**Construcción de variables dependientes**
+
+```{r, echo=FALSE, out.width = '80%', fig.retina = 1, fig.align='center'}
+
+knitr::include_graphics("images/dependientes.png")
+
+```
+---
+**Resultados**
+
+* Los modos de participación de los padres funcionan como espejo respecto a las formas de participación de los hijos.
+
+* Los recursos culturales de los padres inciden en los tres modos de participación..
+
+* La socialización política escolar influye en la participación formal
+
+* La socialización política escolar aumenta la desigualdad de la participación activista de jóvenes.
+
+---
+1. Resultados de moderación multinivel: apertura a la discusión en el aula modera la relación entre prácticas de participación activistas de los padres y participación activista de los estudiantes
+
+```{r, echo=FALSE, out.width = '90%', fig.retina = 1, fig.align='center'}
+knitr::include_graphics("images/marginsef_1.png")
+```
+
+---
+2. Resultados de moderación multinivel: apertura a la discusión en el aula modera la relación entre prácticas de participación activistas de los padres y participación activista de los estudiantes
+
+```{r, echo=FALSE, out.width = '90%', fig.retina = 1, fig.align='center'}
+
+knitr::include_graphics("images/marginsef_2.png")
+
+```
+---
+**Discusión**
+
+* La familia es un factor de socialización política relevante en la actualidad, ya que tanto las prácticas de participación de los padres como los recursos culturales parecen estar conectados con las prácticas de participación de los hijos. Esta situación es una fuente de desigualdad entre aquellos estudiantes con familias polítizadas y con mayores recursos culturales, respecto a los estudiantes que tienen familias menos politizadas. Pareciera ser que la manzana no cae tan lejos del árbol.
+
+* Como se ha visto en la literatura, la escuela sigue siendo un elemento importante para entender la adhesión a formas formales de participación política de los jóvenes. Sin embargo, a partir de la evidencia producida, cabe seguir porfundizando en su rol de moderador de la participación política de los jóvenes con las desigualdades de origen. ¿Potencia o mitiga las desigualdades de origen?
+
+---
+class: center, middle
+
+
+
+class: title-slide, middle, center
+
+background-image: url(img/mide_logo_2019.png), url(img/coes.png)
+background-position: top left, top right
+background-size: 10%, 10%
+
+```{r echo=FALSE, out.width = '2%', out.height = '2%'}
+knitr::include_graphics('./img/blank_space.png')
+```
+
+**¡Muchas gracias por su atención!**
+
+<br>
+
+.line_space_07[
+## El rol de la familia y la escuela
+### .text_70[en la socialización política de las actitudes hacia la igualdad de género]
+]
+<br>
+
+.line_space_03[
+.blue[
+
+.text_60[
+
+**Daniel Miranda. Contacto**: damiran1@uc.cl
+
+.text_70[**Centro de Medición MIDE UC - COES**]
+
+**Julio Iturra**
+
+.text_70[**Centro de Estudios de Conflicto y Cohesión Social - COES**]
+
+**Brian Montenegro**
+
+.text_70[**Universidad Católica de Chile**]
+
+**Karen Sepúlveda**
+
+.text_70[**Universidad de Chile**]
+
+]
+
+<br>
+
+.line_space_02[
+.text_70[*ANID/FONDECYT/1181239 - ANID/FONDECYT/11190508*
+
+<br>
+
+*Centro de Estudios de Conflicto y Cohesión Social - COES - ANID/FONDAP/15130009*]
+]
+
+<br>
+
+.text_70[**Conferencia Internacional COES 2021**]
+
+.text_70[Santiago de Chile - 15 al 17 de Noviembre]
+]
+]
+
+<br>
