@@ -414,7 +414,7 @@ knitr::include_graphics('./img/blank_space.png')
 
 **Anais Herrera**
 
-.text_70[**Centro de Investigación Avanzada en Educación - CIAE**]
+.text_70[**Centro de Investigación Avanzada en Educación - CIAE**] 
 
 **Kevin Carrasco**
 
